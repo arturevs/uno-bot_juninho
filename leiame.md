@@ -1,0 +1,1 @@
+O bot_juninho foi desenvolvido pelo trio Ana Carolina Barbosa da Silva, Artur Revorêdo Pinto e Raquel da Costa Freire como projeto final para a disciplina de Introdução à Técnicas de Programação, no curso de Bacharelado em Tecnologia da Informação da UFRN, o professor da matéria.
