@@ -68,6 +68,7 @@ int main() {
         HAND[i].naipe[j] = temp[x + j + 1];
       }
     }
+
   }
   // // fim do tratamento de dados para a HAND.
   
@@ -88,7 +89,6 @@ int main() {
     na_mesa.valor[0] = temp[0];
     for(int i = 1; i < 4; i++) na_mesa.naipe[i-1] = temp[i];
   }
-
   // fim do tratamento de dados para carta na mesa.  
 
 
@@ -153,19 +153,16 @@ int main() {
         }
         else
         {
-          
-          if(descarte.valor[0] == 'A')
-          {
-            char* naipinho = calloc(3, sizeof(char));
-            naipinho = mudar_naipe(HAND, t_HAND);
-            printf("DISCARD %s%s %s\n", descarte.valor, descarte.naipe, naipinho);
-            }
+          if(descarte.valor[0] == 'A') printf("DISCARD %s%s %s\n", descarte.valor, descarte.naipe, OURO_U);
             
           else printf("DISCARD %s%s\n", descarte.valor, descarte.naipe);
         }
       }
     
   }
+
+
   
   return 0;
 }
+
